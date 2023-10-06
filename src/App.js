@@ -9,7 +9,7 @@ function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
 
   const showCartHandler = () => {
-    console.log("calling")
+    
     setCartIsShown(true);
   };
 
